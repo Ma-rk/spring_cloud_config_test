@@ -20,4 +20,4 @@ logging:
 
 app:
   name: MySpringBootApp
-  description: "This is a sample Spring Boot application."
+  description: "This is a sample default Spring Boot application."

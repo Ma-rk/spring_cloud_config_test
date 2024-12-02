@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://dev-db-server:3306/myapp_dev
-    username: dev_user
-    password: dev_pass
+    url: jdbc:mysql://dev-db-server:3306/myapp_local
+    username: local_user
+    password: local_pass
   jpa:
     hibernate:
       ddl-auto: update
@@ -19,5 +19,5 @@ logging:
     com.myapp: DEBUG
 
 app:
-  name: MySpringBootApp-Dev
-  description: "Development environment configuration."
+  name: MySpringBootApp-local
+  description: "Local environment configuration."

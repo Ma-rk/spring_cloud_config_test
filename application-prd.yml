@@ -19,5 +19,5 @@ logging:
     com.myapp: WARN
 
 app:
-  name: MySpringBootApp
+  name: MySpringBootApp-prd
   description: "Production environment configuration."
