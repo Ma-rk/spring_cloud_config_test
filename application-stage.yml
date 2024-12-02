@@ -1,0 +1,23 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:mysql://stage-db-server:3306/myapp_stage
+    username: stage_user
+    password: stage_pass
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  profiles:
+    active: stage
+
+logging:
+  level:
+    root: WARN
+    com.myapp: INFO
+
+app:
+  name: MySpringBootApp-Stage
+  description: "Staging environment configuration."
